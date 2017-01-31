@@ -1,0 +1,39 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	background-color: #ffffff
+}
+
+.social_media {
+	align-content: right;
+	float: right;
+
+}
+
+.social_media h1{
+	padding: ;
+}
+
+h1, h2{
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+
+	color:#4aaaa5;
+	border-color:#cccccc;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.main_content{
+	
+	margin: 0 0 10px 10px;
+
+}
+
+.name{
+	background-color:#4aaaa5;
+	color: white;
+	width: 172;
+	height: 60;
+}
