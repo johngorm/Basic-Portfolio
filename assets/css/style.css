@@ -13,6 +13,8 @@ body {
 	height: 160px;
 	padding: 20px 30px 40px 30px;
 	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	margin: 0px;
 
 }
  h1, h3{
@@ -24,7 +26,7 @@ body {
 }
 
 div {
-	margin-top: 35px;
+	padding-top: 35px;
 }
 nav {
 	display:inline;
@@ -54,6 +56,10 @@ h3 {
 	text-align: left;
 }
 
+.content{
+	background-image: url("../images/pink_rice.png");
+	padding-bottom: 40px;
+}
 
 .main_content{
 	
@@ -70,7 +76,7 @@ h3 {
 
 .profile_pic {
 	float:left;
-	margin:20px 20px 20px 0px;
+	margin: 0px 20px 20px 0px;
 }
 
 .name{
@@ -89,7 +95,7 @@ footer {
 	height: 90px;
 	border-top: 5px solid #4aaaa5;
 	padding-top: 40px;
-	margin-top: 40px;
+	
 	text-align: center;
 	background-color:#666666;
 }
