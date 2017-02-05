@@ -8,14 +8,15 @@ body {
 
 .social_media {
 	
-	float: right;
-	display: inline-block;
+	
 	width: 220px;
-	height: 160px;
-	padding: 20px 30px 40px 30px;
-	border: 1px solid #cccccc;
-	background-color: #ffffff;
-	margin: 0px;
+    height: 160px;
+    padding: 20px 30px 40px 30px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    position: absolute;
+    top: 165px;
+    right: 230px;
 
 }
  h1, h3{
@@ -29,11 +30,14 @@ body {
 div {
 	padding-top: 35px;
 }
-nav {
-	display:inline;
-	float:right; 
-	margin-top:22.44px; 
-	padding-top: 20px;
+nav {   
+
+	display: inline;
+    float: right;
+    margin-top: 22.44px;
+    padding-top: 20px;
+    position: relative;
+    right: 207px;
 }
 
 nav a {
@@ -47,9 +51,9 @@ div h1 {
 	margin-top: 0px;
 }
 
-p.main_content{
-	float:right;
-	font-size: 16;
+.main_content p{
+	
+	font-size: 18px;
 }
 
 h3 {
@@ -83,7 +87,7 @@ h3 {
 .name{
 	background-color:#4aaaa5;
 	color: white;
-	
+	display: inline-block;
 	margin-left: 80px;
 }
 
