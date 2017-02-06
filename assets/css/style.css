@@ -11,7 +11,7 @@ body {
 	
 	width: 220px;
     height: 160px;
-    padding: 20px 30px 40px 30px;
+    padding: 20px 24px 20px 24px;
     border: 1px solid #cccccc;
     background-color: #ffffff;
     position: absolute;
@@ -19,7 +19,7 @@ body {
     right: 230px;
 
 }
- h1, h3{
+ h1, h2{
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	color:#4aaaa5;
 	padding-top: 20px;
@@ -38,10 +38,17 @@ nav {
     padding-top: 20px;
     position: relative;
     right: 207px;
+    color: #cccccc;
+
+
 }
 
 nav a {
 	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+	color: #cccccc;
+
+
 }
 
 
@@ -56,9 +63,10 @@ div h1 {
 	font-size: 18px;
 }
 
-h3 {
+h2 {
 	border-bottom: 1px solid #cccccc;
 	text-align: left;
+	margin-top: 5px;
 }
 
 .content{
@@ -71,11 +79,13 @@ h3 {
 	margin-right: 10px;
 	margin-left: 80px;
 	padding: 40px 25px 35px 25px;
-	width: 650px;
+	width: 625px;
 	border-color: #dddddd;
 	background-color: #ffffff;
 	border-width: 1px;
 	border-style:solid;
+	overflow: auto;
+	box-sizing: border-box;
 }
 
 
@@ -97,7 +107,7 @@ header {
 }
 
 footer {
-	height: 90px;
+	height: 55px;
 	border-top: 5px solid #4aaaa5;
 	padding-top: 40px;
 	
@@ -109,5 +119,47 @@ input {
 	width: 570px;
 	font-size: 15px;
 }
+
+button {
+	background-color: #4aaaa5;
+	width:115px;
+	height: 40px;
+	color: #ffffff;
+	font-size: 16px;
+	border:none;
+}
+button: hover {
+	background-color: red;
+}
+ul {
+	padding-left: 0px;
+}
+ul li {
+	
+    list-style-type: none;
+    position: relative;
+    width: 50%;
+    float: left;
+}
+ul li img {
+	width: 250px;
+	height: 190px;
+}
+
+li div {
+	position: absolute;
+
+    position: absolute;
+    top: 125px;
+    
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 15px;
+    width: 250px;
+    padding-bottom: 15px;
+}
+
+
 
 
